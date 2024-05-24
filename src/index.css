@@ -11,3 +11,267 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+          .Para {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 15px;
+          }
+          
+          .count {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          
+          .is {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          
+          button {
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            transition: all 0.2s ease-in-out;
+            margin-right: 5px; /* Add spacing between buttons */
+          }
+          
+          .increase {
+            background-color: #28a745; /* Green */
+            color: #fff;
+          }
+          
+          .reset {
+            background-color: #ffc107; /* Yellow */
+            color: #333;
+          }
+          
+          .decrease {
+            background-color: #dc3545; /* Red */
+            color: #fff;
+          }
+
+          .toggle {
+            background-color: #007bff; /* Light blue */
+            color: #fff;
+          }
+          
+          button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+          }
+          
+          /* Color Picker */
+
+          body{
+            font-family: Arial, sans-serif;
+          }
+          .color-picker{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          h1{
+            margin: 50px;
+            font-size: 3rem;
+          }
+          .color-display{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid hsl(0, 0%, 80%);
+            border-radius: 25px;
+            margin-bottom: 25px;
+            transition: 0.25s ease;
+          }
+
+          .color-display p {
+            color: hsl(0, 0%, 20%);
+            font-size: 2rem;
+            text-align: center;
+          }
+          label{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+          }
+          input[type="color"]{
+            width: 75px;
+            height: 50px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 3px solid hsl(0, 0%, 80%);
+          }
+
+              /* Todo-List AI Generated  CSS */
+
+              body {
+                font-family: sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                background-color: #f5f5f5;
+              }
+              
+              .todo-list {
+                background-color: #fff;
+                border-radius: 10px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+                padding: 20px;
+                max-width: 400px; /* Adjust as needed */
+                margin: 0 auto; /* Center horizontally */
+              }
+              
+              h1 {
+                font-size: 24px;
+                text-align: center;
+                margin-bottom: 15px;
+              }
+              
+              .input-container {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+              }
+              
+              input[type="text"] {
+                padding: 8px 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                flex: 1;
+                font-size: 16px;
+              }
+              
+              .addBtn {
+                background-color: #28a745; /* Green */
+                color: #fff;
+                border: none;
+                padding: 8px 15px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+              }
+              
+              ol {
+                padding: 0;
+                list-style: none;
+              }
+              
+              li {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                border-bottom: 1px solid #eee;
+                margin-bottom: 5px;
+              }
+              
+              .text {
+                font-size: 16px;
+              }
+              
+              .Remove,
+              .move-up,
+              .move-dowm {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                font-size: 16px;
+                margin-left: 10px;
+              }
+              
+              .Remove:hover,
+              .move-up:hover,
+              .move-dowm:hover {
+                color: #f00; /* Red on hover */
+              }
+              .box{
+                border: 3px solid;
+                padding: 25px;
+              }
+              
+              /* Media queries for responsiveness */
+              @media (max-width: 768px) {
+                .todo-list {
+                  max-width: 300px;
+                }
+                .input-container {
+                  flex-direction: column;
+                }
+                input[type="text"] {
+                  margin-bottom: 5px;
+                }
+              }
+              .stopwatch {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+                border: 2px solid #333;
+                border-radius: 10px;
+                background-color: #f9f9f9;
+                width: 300px;
+                margin: 0 auto;
+              }
+              
+              .stopwatch h1 {
+                font-size: 2rem;
+                margin-bottom: 20px;
+              }
+              
+              .stopwatch__timer {
+                font-size: 3rem;
+                font-weight: bold;
+                margin-bottom: 20px;
+                background: #e0e0e0;
+                padding: 10px 20px;
+                border-radius: 5px;
+              }
+              
+              .stopwatch__controls {
+                margin-bottom: 20px;
+              }
+              
+              button {
+                font-size: 1rem;
+                padding: 10px 20px;
+                margin: 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s;
+              }
+              
+              .start {
+                background-color: #28a745;
+                color: white;
+              }
+              
+              .start:hover {
+                background-color: #218838;
+              }
+              
+              .reset {
+                background-color: #ffc107;
+                color: white;
+              }
+              
+              .reset:hover {
+                background-color: #e0a800;
+              }
+              
+              .stop {
+                background-color: #dc3545;
+                color: white;
+              }
+              
+              .stop:hover {
+                background-color: #c82333;
+              }
+              
